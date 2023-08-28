@@ -14,12 +14,12 @@ const Technology = () => {
         <div className='technology'>
             <h1>Technologies</h1>
             <div className='technology__icons'>
-                <div><img src={html} /></div>
-                <div><img src={css} /></div>
-                <div><img src={js} /></div>
-                <div><img src={node} /></div>
-                <div><img src={sql} /></div>
-                <div><img src={react} /></div>
+                <div><img src={html} alt="html"/></div>
+                <div><img src={css} alt="html"/></div>
+                <div><img src={js} alt="html"/></div>
+                <div><img src={node} alt="html"/></div>
+                <div><img src={sql} alt="html"/></div>
+                <div><img src={react} alt="html"/></div>
             </div>
         </div>
     )

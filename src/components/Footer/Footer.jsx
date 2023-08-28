@@ -33,7 +33,7 @@ const Footer = () => {
 						rows="10"
 						placeholder="Message"
 					></textarea>
-					<a href="">
+					<a href="/">
 						<Button
 							content="Submit"
 							color="#0063D8"

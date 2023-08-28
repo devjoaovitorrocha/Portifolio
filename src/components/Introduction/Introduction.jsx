@@ -2,7 +2,6 @@ import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 import './Introduction.css';
-import setas from '../../assets/setasIntroduction.png';
 
 const Introduction = () => {
 	const [text] = useTypewriter({
