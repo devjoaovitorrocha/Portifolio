@@ -1,0 +1,137 @@
+.footer{
+    display: flex;
+    color: white;
+    background-color: #183162;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__message{
+    width: 40%;
+}
+
+.footer__message h1{
+    font-size: 40px;
+}
+
+.footer__message form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.footer__message form input,
+.footer__message form textarea{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    resize: none;
+    color: white;
+}
+
+.footer__message form input::placeholder{
+    color: white;
+}
+
+.footer__message form textarea::placeholder{
+    color: white;
+}
+
+.footer__message form input:focus-visible{
+    outline: none;
+}
+
+.footer__message form input:focus-visible::placeholder,
+.footer__message form input:focus-visible{
+    color: #0085FF;
+    border-bottom: #0085FF 1px solid;
+}
+
+.footer__message form textarea:focus-visible{
+    outline: none;
+}
+
+.footer__message form textarea:focus-visible::placeholder{
+    color: #0085FF;
+}
+
+.footer__message form textarea:focus-visible{
+    border-bottom: #0085FF 1px solid;
+}
+
+Button{
+    margin-top: 0;
+}
+
+.footer__contact h1{
+    font-size: 40px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.footer__contact p {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    line-height: 23px;
+}
+
+.footer__contact-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+@media screen and (max-width: 990px){
+    .footer{
+        flex-direction: column;
+        height: 150vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer__message{
+        width: 80%;
+    }
+
+    .footer__message form input,
+    .footer__message form textarea{
+        width: 90%;
+    }
+
+    .footer__contact{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .footer{
+        text-align: center;
+    }
+
+    .footer__message{
+        width: 80%;
+    }
+
+    .footer__message form input,
+    .footer__message form textarea{
+        width: 90%;
+    }
+
+    .footer__contact{
+        width: 80%;
+    }
+    
+    Button{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,80 @@
+.introduction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/setasIntroduction.png') no-repeat center;
+    height: 85vh;
+}
+
+.introduction h2{
+    color: #0094FF;
+    font-family: Archivo Black;
+    font-size: 25px;
+    line-height: 0;
+}
+
+.introduction h1{
+    color: #000;
+    font-family: Archivo Black;
+    font-size: 80px;
+    line-height: 1.5;
+}
+
+.introduction h3{
+    color: #232642;
+    font-family: Archivo Black;
+    font-size: 30px;
+}
+
+.introduction h3 .introduction__text-type{
+    color: #0094FF;
+    font-family: Archivo Black;
+    font-size: 30px;
+}
+
+.introduction h3 .introduction__text-type-cursor{
+    font-size: 25px;
+    color: #000;
+}
+
+@media screen and (max-width: 1283px){
+    .introduction {
+        background-image: url('../../assets/setasIntroductionMobile.png');
+    }
+}
+
+@media screen and (max-width: 772px){
+    .introduction {
+        background-image: url('../../assets/setasIntrroductionMobileMini.png');
+    }
+
+    .introduction h3,
+    .introduction h3 .introduction__text-type{
+        font-size: 20px;
+    }
+
+    .introduction h1{
+        font-size: 70px;
+    }
+    .introduction h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 470px){
+
+    .introduction h3,
+    .introduction h3 .introduction__text-type{
+        font-size: 15px;
+    }
+
+    .introduction h1{
+        font-size: 50px;
+    }
+    .introduction h2{
+        font-size: 15px;
+    }
+}
+
