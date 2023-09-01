@@ -4,13 +4,38 @@ import './Projects.css';
 import Project from '../MiniComponents/Project';
 
 import toDolist from '../../assets/preview.png';
-import Button from '../MiniComponents/Button';
 
 const Projects = () => {
+	
+
 	return (
-		<div className="projects">
+		<div className="projects" id='projects'>
 			<h1>Projects</h1>
-			<div className="projects__previews">
+			<div className="projects__previews" id='projects__previews'>
+				<Project
+					preview={toDolist}
+					name="To do List"
+					technologies="React/Node/MySql"
+					description="utilizado pra tal tal, focado para tal tal, tive a intenção de tal tal"
+				/>
+                <Project
+					preview={toDolist}
+					name="To do List"
+					technologies="React/Node/MySql"
+					description="utilizado pra tal tal, focado para tal tal, tive a intenção de tal tal"
+				/>
+                <Project
+					preview={toDolist}
+					name="To do List"
+					technologies="React/Node/MySql"
+					description="utilizado pra tal tal, focado para tal tal, tive a intenção de tal tal"
+				/>
+                <Project
+					preview={toDolist}
+					name="To do List"
+					technologies="React/Node/MySql"
+					description="utilizado pra tal tal, focado para tal tal, tive a intenção de tal tal"
+				/>
 				<Project
 					preview={toDolist}
 					name="To do List"
@@ -36,7 +61,6 @@ const Projects = () => {
 					description="utilizado pra tal tal, focado para tal tal, tive a intenção de tal tal"
 				/>
 			</div>
-            <Button color="#0A1F33" content="View All Projects" />
 		</div>
 	);
 };

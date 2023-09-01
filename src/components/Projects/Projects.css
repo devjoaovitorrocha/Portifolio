@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     height: 160vh;
-    margin-top: 5rem;
     padding-top: 5rem;
     background-color: #D9F1FF;
 }
@@ -16,15 +15,16 @@
 .projects__previews{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 500px);
+    grid-template-rows: repeat(6, 500px);
     padding: 0 5rem;
     column-gap: 10rem;
+    row-gap: 5rem;
     margin-top: 7rem;
+    margin-bottom: 5rem;
+    height: 110vh;
+    overflow: hidden;
 }
 
-Button{
-    margin-top: 10rem;
-}
 
 @media screen and (max-width: 1084px){
     .projects{
@@ -51,10 +51,11 @@ Button{
 
 @media screen and (max-width: 450px){
     .projects{
-        height: 250vh;
+        height: 220vh;
     }
 
     .projects__previews{
         grid-template-rows: repeat(4, 400px);
+        margin-bottom: 0;
     }
 }

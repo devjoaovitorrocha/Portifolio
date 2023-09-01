@@ -4,11 +4,12 @@ import './About.css';
 import Button from '../MiniComponents/Button';
 
 import perfil from '../../assets/perfil.jpg';
-import curriculo from '../../assets/curriculo.png';
+import curriculo from '../../assets/curriculo.jpg';
+import { forwardRef } from 'react';
 
-const About = () => {
+const About = (props) => {
 	return (
-		<div className="about">
+		<div className="about" id='about'>
 			<img
 				src={perfil}
 				alt=""
@@ -31,4 +32,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default forwardRef(About);

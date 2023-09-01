@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import linkedinLogo from '../../../assets/linkedin.png';
 import githubLogo from '../../../assets/github.png';
 
+import { HashLink } from 'react-router-hash-link';
+
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 import './Navbar.css';
@@ -12,10 +14,10 @@ const Navbar = () => {
 	const Menu = (props) => {
 		return (
 			<div className={props.class} style={{ display: props.display}}>
-				<a href="/">Home</a>
-				<a href="/">About</a>
-				<a href="/">Projects</a>
-				<a href="/">Contact</a>
+				<a href="/"> Home </a>
+				<HashLink smooth to='/#about' >About</HashLink>
+				<HashLink smooth to='/#projects' >Projects</HashLink>
+				<HashLink smooth to='/#footer' >Contact</HashLink>
                 <div>
                     <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-647082250/" target='_blanck'>
                         <img

@@ -4,13 +4,13 @@ import './Footer.css';
 import linkedinLogo from '../../assets/linkedin.png';
 import githubLogo from '../../assets/github.png';
 
-import curriculo from '../../assets/curriculo.png'
+import curriculo from '../../assets/curriculo.jpg'
 
 import Button from '../MiniComponents/Button';
 
 const Footer = () => {
 	return (
-		<div className="footer">
+		<div className="footer" id="footer">
 			<div className="footer__message">
 				<h1>Drop a line.</h1>
 				<form>
