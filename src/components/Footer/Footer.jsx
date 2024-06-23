@@ -4,7 +4,7 @@ import './Footer.css';
 import linkedinLogo from '../../assets/linkedin.png';
 import githubLogo from '../../assets/github.png';
 
-import curriculo from '../../assets/curriculo.jpg'
+import curriculo from '../../assets/curriculo.pdf'
 
 import Button from '../MiniComponents/Button';
 
@@ -76,7 +76,7 @@ const Footer = () => {
 						/>
 					</a>
 					<a
-						href="https://github.com/JoaoVitorProjetos/Portifolio"
+						href="https://github.com/JoaoVitorProjetos"
 						target="_blanck"
 					>
 						<img

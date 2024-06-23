@@ -1,15 +1,9 @@
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 1.5rem 15rem;
     align-items: center;
     background: #D9F1FF;
-}
-
-.navbar h1{
-    font-family: 'Lobster Two', cursive;
-    font-size: 40px;
-    font-weight: 500;
 }
 
 .navbar__menu{

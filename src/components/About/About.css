@@ -9,8 +9,7 @@
 }
 
 .about img{
-    width: 600px;
-    height: 635px;
+    width: 400px;
     padding-right: 5rem;
 }
 
@@ -20,7 +19,7 @@
 }
 
 .about__text p{
-    width: 30rem;
+    width: 32rem;
     font-family: 'Archivo', sans-serif;
     font-weight: 800;
     font-size: 23px;

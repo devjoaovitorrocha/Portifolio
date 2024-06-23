@@ -25,7 +25,7 @@ const Navbar = () => {
                             alt=""
                         />
                     </a>
-                    <a href="https://github.com/JoaoVitorProjetos/Portifolio" target='_blanck'>
+                    <a href="https://github.com/JoaoVitorProjetos/" target='_blanck'>
                         <img
                             src={githubLogo}
                             alt=""
@@ -46,7 +46,6 @@ const Navbar = () => {
 	return (
 		<>
 			<div className="navbar">
-				<h1>João</h1>
 				<Menu class="navbar__menu" />
 				<div className="navbar__menu-mobile">
 					{toggleNavbar ? (

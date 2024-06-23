@@ -4,7 +4,7 @@ import './About.css';
 import Button from '../MiniComponents/Button';
 
 import perfil from '../../assets/perfil.jpg';
-import curriculo from '../../assets/curriculo.jpg';
+import curriculo from '../../assets/curriculo.pdf';
 import { forwardRef } from 'react';
 
 const About = (props) => {
@@ -18,9 +18,8 @@ const About = (props) => {
 				<h1>About me</h1>
 				<p>
 					In love with technology, I’ve been studying and practcing{' '}
-					<span>React, NodeJs, MySql</span> and <span>Javascript</span> for 4
-					years, what have made me a professional in the area, and a qualified{' '}
-					<span>Fullstack Developer</span>
+					<span>React, Typescript, Sql, C#</span> and <span>Python</span>, what have made me a professional in the area, and a qualified{' '}
+					<span>Fullstack Developer Jr</span>
 					<span style={{ fontFamily: 'Archivo Black', color: 'black' }}>.</span>
 				</p>
 				<a href={curriculo} download='curriculo'><Button
