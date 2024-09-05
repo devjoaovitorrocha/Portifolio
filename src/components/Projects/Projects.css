@@ -5,7 +5,6 @@
     align-items: center;
     padding-top: 5rem;
     background-color: #D9F1FF;
-    overflow: scroll;
 }
 
 .projects h1{
@@ -15,13 +14,11 @@
 .projects__previews{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 500px);
+    grid-template-rows: repeat(2, 500px);
     padding: 0 5rem;
     column-gap: 10rem;
-    row-gap: 5rem;
+    background-color: #D9F1FF;
     margin-top: 7rem;
-    margin-bottom: 5rem;
-    overflow: scroll;
 }
 
 
