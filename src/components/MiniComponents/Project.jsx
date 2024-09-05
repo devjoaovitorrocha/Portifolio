@@ -7,7 +7,7 @@ const Project = (props) => {
 		<div className="project">
 			<h1>{props.name}</h1>
 			<a
-				href="https://www.youtube.com/watch?v=fBNW09FVtEA"
+				href={props.url}
 				target="_blank"
 				rel="noopener noreferrer"
 			>

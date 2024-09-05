@@ -18,6 +18,7 @@ const Navbar = () => {
 				<HashLink smooth to='/#about' >About</HashLink>
 				<HashLink smooth to='/#projects' >Projects</HashLink>
 				<HashLink smooth to='/#footer' >Contact</HashLink>
+				<HashLink smooth to='/#technology' >Technologies</HashLink>
                 <div>
                     <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-647082250/" target='_blanck'>
                         <img
@@ -25,7 +26,7 @@ const Navbar = () => {
                             alt=""
                         />
                     </a>
-                    <a href="https://github.com/JoaoVitorProjetos/" target='_blanck'>
+                    <a href="https://github.com/devjoaovitorrocha?tab=repositories" target='_blanck'>
                         <img
                             src={githubLogo}
                             alt=""

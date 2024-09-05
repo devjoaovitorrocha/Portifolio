@@ -8,9 +8,6 @@ import Footer from '../components/Footer/Footer';
 
 import './LandingPage.css';
 
-import { Link } from 'react-router-dom';
-
-import Button from '../components/MiniComponents/Button';
 
 const LandingPage = () => {
 	return (
@@ -20,9 +17,6 @@ const LandingPage = () => {
 			<About />
 			<Technology />
 			<Projects />
-			<div className='landing-page'>
-				<Link to='/projects'><Button color="#0A1F33" content="View All Projects" /></Link>
-			</div>
 			<Footer />
 		</>
 	);

@@ -14,14 +14,15 @@
 }
 
 .project img{
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
     cursor: pointer;
 }
 
 .project h2{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Archivo', sans-serif;
     margin-left: 1rem;
+    width: 70%;
     color: #0085FF;
 }

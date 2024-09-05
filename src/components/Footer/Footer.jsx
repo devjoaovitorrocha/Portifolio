@@ -76,7 +76,7 @@ const Footer = () => {
 						/>
 					</a>
 					<a
-						href="https://github.com/JoaoVitorProjetos"
+						href="https://github.com/devjoaovitorrocha?tab=repositories"
 						target="_blanck"
 					>
 						<img
